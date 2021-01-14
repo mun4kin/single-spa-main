@@ -20,7 +20,10 @@ code {
 
 .navbar {
   height: 100px;
-  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
 }
 
 #content {

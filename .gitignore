@@ -63,3 +63,5 @@ atlassian-ide-plugin.xml
 # кэш windows
 **/Thumbs.db
 **/ehthumbs.db
+
+.eslintcache

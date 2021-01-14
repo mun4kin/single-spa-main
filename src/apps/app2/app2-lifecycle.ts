@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import singleSpaReact from 'single-spa-react';
 import App2 from './App2';
-import { contentDomElementGetter } from '../../dom-utils';
+import { setRootElementForApp } from '../../bootstrap/setRoorElementForApp';
 
 const reactLifecycles = singleSpaReact({
   React,
   ReactDOM,
   rootComponent: (App2 as any),
-  domElementGetter: contentDomElementGetter,
+  domElementGetter: setRootElementForApp,
 });
 
 export const bootstrap = [

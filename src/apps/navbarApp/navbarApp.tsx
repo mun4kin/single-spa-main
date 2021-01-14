@@ -1,12 +1,18 @@
 import React from 'react';
 import './navbarApp.css';
+import { HashRouter, Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
+  
   return (
+    <>
       <div className='navbar-app'>
-        <div onClick={()=>{window.location.assign('/worktime')}}>show app1</div>
-        <div onClick={()=>{window.location.assign('/app2')}}>show app2</div>
+        <HashRouter>
+          <Link className='nav__link' to='/worktime'>Worktime</Link>
+          <Link className='nav__link' to='/app2'>App 2</Link>
+        </HashRouter>
       </div>
+    </>
   );
 }
 

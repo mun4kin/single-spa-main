@@ -1,15 +1,14 @@
 .navbar-app {
-  display:flex;
-  cursor: pointer;
-  justify-content: center;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
 }
 
-.navbar-app div {
-  padding: 20px;
-  border: 1px solid black;
-  margin:5px
-}
-
-.navbar-app div:hover {
-  background-color: grey;
+.nav__link {
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid #282c34;
+    color: #282c34;
+    margin: 0 16px;
+    border-radius: 8px;
 }

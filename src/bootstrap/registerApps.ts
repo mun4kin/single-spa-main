@@ -24,7 +24,7 @@ export const registerApps = () => {
   
   registerApplication({
     name: 'worktime',
-    app: () => import('worktime/_worktime/dist/single-spa-worktime' as string),
+    app: () => import('worktime/dist/single-spa-worktime' as string),
     activeWhen: (location: Location) => locationContainsPath(location, '#/worktime'),
     customProps: {
       user,

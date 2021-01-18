@@ -26,7 +26,8 @@
     "babel-plugin-named-asset-import": "^0.3.7",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-unused-imports": "^1.0.1",
-    "react-app-rewired": "^2.1.8"
+    "react-app-rewired": "^2.1.8",
+    "react-generator-cmd": "^1.5.2"
   },
   "scripts": {
     "clear": "rimraf node_modules/worktime && rimraf yarn.lock && yarn && yarn start",
@@ -34,7 +35,8 @@
     "build": "react-app-rewired build",
     "test": "node scripts/test.js",
     "rflink": "yarn link worktime && yarn link react && yarn link react-dom && yarn link react-router-dom",
-    "rfunlink": "yarn unlink worktime && yarn unlink react && yarn unlink react-dom && yarn unlink react-router-dom && yarn"
+    "rfunlink": "yarn unlink worktime && yarn unlink react && yarn unlink react-dom && yarn unlink react-router-dom && yarn",
+    "g": "node node_modules/react-generator-cmd/dist"
   },
   "eslintConfig": {
     "extends": "react-app",

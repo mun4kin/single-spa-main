@@ -25,6 +25,7 @@
     "babel-loader": "8.1.0",
     "babel-plugin-named-asset-import": "^0.3.7",
     "eslint-loader": "^4.0.2",
+    "eslint-plugin-unused-imports": "^1.0.1",
     "react-app-rewired": "^2.1.8"
   },
   "scripts": {

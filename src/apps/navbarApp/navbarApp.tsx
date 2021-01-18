@@ -3,7 +3,7 @@ import './navbarApp.css';
 import { HashRouter, Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
-  
+
   return (
     <>
       <div className='navbar-app'>
@@ -14,6 +14,6 @@ const Navbar: React.FC = () => {
       </div>
     </>
   );
-}
+};
 
 export default Navbar;

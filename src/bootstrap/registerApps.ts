@@ -15,13 +15,13 @@ const user = {
 };
 
 export const registerApps = () => {
-  
+
   registerApplication({
     name: 'navbar',
     app: () => import('../apps/navbarApp/navbarApp-lifecycle' as string),
     activeWhen: () => true,
-  })
-  
+  });
+
   registerApplication({
     name: 'worktime',
     app: () => import('worktime/dist/single-spa-worktime' as string),
@@ -30,5 +30,5 @@ export const registerApps = () => {
       user,
       basename: '/#/worktime'
     }
-  })
-}
+  });
+};
